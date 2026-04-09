@@ -1,0 +1,57 @@
+/* public/css/style.css */
+
+/* Additional custom styles beyond Tailwind */
+
+body {
+    scroll-behavior: smooth;
+}
+
+.line-clamp-3 {
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
+
+/* Project card hover effect enhancement */
+.project-card {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.project-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 20px 25px -5px rgb(0 0 0 / 0.1), 
+                0 8px 10px -6px rgb(0 0 0 / 0.1);
+}
+
+/* Section padding consistency */
+section {
+    scroll-margin-top: 80px;
+}
+
+/* Custom scrollbar (optional, looks modern) */
+::-webkit-scrollbar {
+    width: 6px;
+}
+
+::-webkit-scrollbar-track {
+    background: #18181b;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #4b5563;
+    border-radius: 20px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #10b981;
+}
+
+/* Make sure images don't break layout */
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Tailwind script already handles most styling,
+   this file is for any extra custom rules you may need later */

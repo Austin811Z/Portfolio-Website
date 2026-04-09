@@ -1,0 +1,25 @@
+<section id="contact" class="py-24 bg-zinc-900">
+    <div class="max-w-2xl mx-auto px-6 text-center">
+        <h2 class="text-4xl font-bold mb-6">Get In Touch</h2>
+        <p class="text-zinc-400 mb-10">Feel free to reach out for opportunities or discussions.</p>
+        
+        <form action="/contact" method="POST" class="space-y-6">
+            <div>
+                <input type="text" name="name" placeholder="Your Name" required
+                       class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-emerald-500">
+            </div>
+            <div>
+                <input type="email" name="email" placeholder="Your Email" required
+                       class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-emerald-500">
+            </div>
+            <div>
+                <textarea name="message" rows="6" placeholder="Your Message" required
+                          class="w-full bg-zinc-800 border border-zinc-700 rounded-2xl px-6 py-4 focus:outline-none focus:border-emerald-500"></textarea>
+            </div>
+            <button type="submit"
+                    class="w-full bg-emerald-600 hover:bg-emerald-500 py-4 rounded-2xl font-semibold text-lg transition-colors">
+                Send Message
+            </button>
+        </form>
+    </div>
+</section>
