@@ -3,20 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title><%= title || 'Developer Portfolio' %></title>
-    <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="stylesheet" href="/css/style.css">
-    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+    <title>Layout Test</title>
 </head>
-<body class="bg-zinc-950 text-zinc-100 font-sans">
-    <%- include('partials/navbar') %>
+<body style="background-color: red; color: white; padding: 50px; font-family: Arial, sans-serif; text-align: center;">
+    
+    <h1 style="font-size: 3rem;">✅ LAYOUT.EJS IS LOADED SUCCESSFULLY</h1>
+    <p style="font-size: 1.5rem; margin: 20px 0;">
+        If you can see this big red background and text, layout.ejs is working.
+    </p>
+    <p style="color: yellow;">Now we will fix the CSS link.</p>
 
+    <%- include('partials/navbar') %>
     <main>
         <%- body %>
     </main>
-
     <%- include('partials/footer') %>
-
-    <script src="/js/main.js"></script>
 </body>
 </html>

@@ -3,67 +3,32 @@
     {
       "id": 1,
       "title": "Personal Portfolio Website",
-      "description": "A clean, responsive portfolio built with Express.js and EJS to showcase my journey from beginner to intermediate developer.",
-      "longDescription": "This is my current portfolio project. It features a modern design, smooth navigation, dark mode, and is fully responsive.",
+      "description": "A clean and responsive portfolio built with Express.js and EJS to showcase my development journey.",
       "category": "intermediate",
-      "technologies": ["JavaScript", "Express.js", "EJS", "Tailwind CSS", "Node.js"],
+      "technologies": ["JavaScript", "Express.js", "EJS", "CSS"],
       "image": "portfolio.jpg",
-      "liveUrl": "https://yourportfolio.vercel.app",
-      "githubUrl": "https://github.com/yourusername/sboniso-portfolio",
-      "featured": true,
-      "date": "2026-04"
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/yourusername/portfolio"
     },
     {
       "id": 2,
       "title": "Task Management App",
-      "description": "A simple todo application with add, edit, delete, and local storage persistence.",
-      "longDescription": "Built as my first major JavaScript project. Users can create tasks, mark them complete, and filter by status.",
+      "description": "A simple todo application with add, edit, delete, and persistence using localStorage.",
       "category": "beginner",
       "technologies": ["HTML", "CSS", "JavaScript", "LocalStorage"],
-      "image": "todo-app.jpg",
-      "liveUrl": "https://your-todo-app.netlify.app",
-      "githubUrl": "https://github.com/yourusername/todo-app",
-      "featured": false,
-      "date": "2025-10"
+      "image": "todo.jpg",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/yourusername/todo-app"
     },
     {
       "id": 3,
       "title": "Weather Dashboard",
-      "description": "Real-time weather application using a public weather API with search functionality.",
-      "longDescription": "Fetches current weather and 5-day forecast. Includes location search and beautiful UI with icons.",
+      "description": "Real-time weather application using a public API with search and forecast features.",
       "category": "intermediate",
-      "technologies": ["JavaScript", "Fetch API", "Tailwind CSS", "OpenWeather API"],
-      "image": "weather-app.jpg",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/yourusername/weather-dashboard",
-      "featured": true,
-      "date": "2026-02"
-    },
-    {
-      "id": 4,
-      "title": "Simple Blog Website",
-      "description": "A static blog platform with multiple articles and responsive design.",
-      "longDescription": "Built using only HTML, CSS, and vanilla JavaScript. Features dark mode toggle and article filtering.",
-      "category": "beginner",
-      "technologies": ["HTML", "CSS", "JavaScript"],
-      "image": "blog.jpg",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/yourusername/simple-blog",
-      "featured": false,
-      "date": "2025-08"
-    },
-    {
-      "id": 5,
-      "title": "Expense Tracker",
-      "description": "Personal finance app to track income and expenses with charts.",
-      "longDescription": "Allows users to add transactions, categorize them, and view monthly summaries using Chart.js.",
-      "category": "intermediate",
-      "technologies": ["JavaScript", "Chart.js", "Tailwind CSS", "LocalStorage"],
-      "image": "expense-tracker.jpg",
-      "liveUrl": "",
-      "githubUrl": "https://github.com/yourusername/expense-tracker",
-      "featured": false,
-      "date": "2026-01"
+      "technologies": ["JavaScript", "Fetch API", "CSS"],
+      "image": "weather.jpg",
+      "liveUrl": "#",
+      "githubUrl": "https://github.com/yourusername/weather-app"
     }
   ]
 }
