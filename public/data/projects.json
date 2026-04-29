@@ -7,8 +7,8 @@
       "category": "intermediate",
       "technologies": ["JavaScript", "Express.js", "EJS", "CSS"],
       "image": "portfolio.jpg",
-      "liveUrl": "#",
-      "githubUrl": "https://github.com/yourusername/portfolio"
+      "liveUrl": "https://github.com/Austin811Z/Portfolio-Website",
+      "githubUrl": "https://github.com/Austin811Z/Portfolio-Website"
     },
     {
       "id": 2,
@@ -17,8 +17,8 @@
       "category": "beginner",
       "technologies": ["HTML", "CSS", "JavaScript", "LocalStorage"],
       "image": "todo.jpg",
-      "liveUrl": "#",
-      "githubUrl": "https://github.com/yourusername/todo-app"
+      "liveUrl": "https://github.com/Austin811Z/Odins-TODO-List",
+      "githubUrl": "https://github.com/Austin811Z/Odins-TODO-List"
     },
     {
       "id": 3,
@@ -27,8 +27,68 @@
       "category": "intermediate",
       "technologies": ["JavaScript", "Fetch API", "CSS"],
       "image": "weather.jpg",
-      "liveUrl": "#",
-      "githubUrl": "https://github.com/yourusername/weather-app"
+      "liveUrl": "https://github.com/Austin811Z/Odins-Weather-App",
+      "githubUrl": "https://github.com/Austin811Z/Odins-Weather-App"
+    },
+    {
+      "id": 4,
+      "title": "Expense Tracker",
+      "description": "Personal finance app to track income and expenses with monthly summaries and visual charts.",
+      "category": "intermediate",
+      "technologies": ["JavaScript", "Chart.js", "LocalStorage", "CSS"],
+      "image": "expense.jpg",
+      "liveUrl": "https://github.com/Austin811Z/Expense-tracker",
+      "githubUrl": "https://github.com/Austin811Z/Expense-tracker"
+    },
+    {
+      "id": 5,
+      "title": "Simple Blog Platform",
+      "description": "A dynamic blog website with multiple articles, categories, and dark mode toggle built using EJS.",
+      "category": "intermediate",
+      "technologies": ["Express.js", "EJS", "CSS", "JavaScript"],
+      "image": "blog.jpg",
+      "liveUrl": "https://github.com/Austin811Z/Simple-Blog-Platform",
+      "githubUrl": "https://github.com/Austin811Z/Simple-Blog-Platform"
+    },
+    {
+      "id": 6,
+      "title": "Movie Search App",
+      "description": "Movie discovery platform using TMDB API with search, filtering, and detailed movie information.",
+      "category": "intermediate",
+      "technologies": ["JavaScript", "Fetch API", "TMDB API", "CSS"],
+      "image": "movie.jpg",
+      "liveUrl": "https://github.com/Austin811Z/Movie-Search",
+      "githubUrl": "https://github.com/Austin811Z/Movie-Search"
+    },
+    {
+      "id": 7,
+      "title": "Interactive Quiz Application",
+      "description": "Multiple category quiz app with timer, score tracking, and instant feedback.",
+      "category": "intermediate",
+      "technologies": ["JavaScript", "HTML", "CSS"],
+      "image": "quiz.jpg",
+      "liveUrl": "https://github.com/Austin811Z/Quiz-App",
+      "githubUrl": "https://github.com/Austin811Z/Quiz-App"
+    },
+    {
+      "id": 8,
+      "title": "Recipe Finder App",
+      "description": "Recipe search and discovery app with ingredient filtering and favorite recipes functionality.",
+      "category": "intermediate",
+      "technologies": ["JavaScript", "Fetch API", "CSS"],
+      "image": "recipe.jpg",
+      "liveUrl": "https://github.com/Austin811Z/Recipe-Finder",
+      "githubUrl": "https://github.com/Austin811Z/Recipe-Finder"
+    },
+    {
+      "id": 9,
+      "title": "E-commerce Product Page",
+      "description": "Modern responsive product listing with cart functionality, filters, and modal preview.",
+      "category": "intermediate",
+      "technologies": ["HTML", "CSS", "JavaScript"],
+      "image": "ecommerce.jpg",
+      "liveUrl": "https://github.com/Austin811Z/E-Commerce-Product-Page",
+      "githubUrl": "https://github.com/Austin811Z/E-Commerce-Product-Page"
     }
   ]
 }
