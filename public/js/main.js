@@ -49,6 +49,7 @@ function renderProjects(projects) {
                         ${project.technologies.map(tech => `<span class="tech-tag">${tech}</span>`).join('')}
                     </div>
                     <div class="project-links">
+                        <a href="${project.liveurl}" target="_blank" class="btn btn-secondary">LiveURL</a>
                         <a href="${project.githubUrl}" target="_blank" class="btn btn-secondary">GitHub</a>
                     </div>
                 </div>
